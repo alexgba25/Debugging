@@ -130,7 +130,7 @@ namespace Debugging
             
             for (int i = 1; i <= 10; i++)
             {
-                int numeroAleatorio = rand.Next(1, 101); 
+                int numeroAleatorio = rand.Next(1, 10); 
                 suma += numeroAleatorio;
                 Console.WriteLine($"\nNúmero aleatorio #{i}: {numeroAleatorio}, suma acumulada: {suma}");
             }
